@@ -1,0 +1,20 @@
+name: awesome_gradients
+description: Non-SRGB Color Space Gradients
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.0-238.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  shaders:
+    - shaders/hsl_linear_gradient.frag
+    - shaders/hsl_radial_gradient.frag
